@@ -40,7 +40,6 @@ namespace HelloWorld
         void SubmitPositionRequestServerRpc(RpcParams rpcParams = default)
         {
             var randomPosition = GetRandomPositionOnPlane();
-            transform.position = randomPosition;
             Position.Value = randomPosition;
         }
 
