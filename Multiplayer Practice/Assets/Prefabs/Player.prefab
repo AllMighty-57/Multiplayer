@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1395792565590112114}
   - component: {fileID: 2070986879935680040}
   - component: {fileID: -4240709925385965808}
+  - component: {fileID: 8353342824413687839}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -155,3 +156,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb7d9fc5a0f37ae438c645ecf513094c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RpcTest
+  ShowTopMostFoldoutHeaderGroup: 1
+--- !u!114 &8353342824413687839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2059256954843647714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da6a0ed87347e994f91149c08fb3cf14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HelloWorld.HelloWorldPlayer
+  ShowTopMostFoldoutHeaderGroup: 1
+  Position:
+    UpdateTraits:
+      MinSecondsBetweenUpdates: 0
+      MaxSecondsBetweenUpdates: 0
+    m_InternalValue: {x: 0, y: 0, z: 0}
